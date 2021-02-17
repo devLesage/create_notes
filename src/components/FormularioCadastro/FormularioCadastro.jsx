@@ -26,8 +26,7 @@ class FormularioCadastro extends Component{
             alert("Insira o texto");
         }else{
             this.props.criarNota(this.titulo, this.texto);
-        }
-        
+        }     
     }
     render(){
         return(
